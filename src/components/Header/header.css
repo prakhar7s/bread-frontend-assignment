@@ -1,0 +1,35 @@
+.header {
+  padding: 10px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+  height: 90px;
+}
+
+.header .links {
+  margin-left: auto;
+}
+
+.links .signin-btn {
+  color: #00a9fa;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.links .custom-btn {
+  background: hsl(199, 94%, 47%);
+  color: white;
+  font-size: 18px;
+  width: 200px;
+  padding: 4px 0px;
+  font-weight: 500;
+  border-radius: 100px;
+  box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.links .custom-btn:hover {
+  color: white;
+}

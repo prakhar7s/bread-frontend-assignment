@@ -1,0 +1,74 @@
+.landing-page {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/Rectangle1.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skewed-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.left-section {
+  padding-left: 60px;
+  padding-top: 60px;
+  height: 100%;
+}
+
+.left-section .heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #1157a0;
+}
+
+.heading span {
+  color: #279ceb;
+}
+
+.left-section-form {
+  height: 200px;
+  width: 100%;
+}
+
+.left-section-form .input-div {
+  background: #ffffff;
+  padding: 10px;
+  width: 370px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid #0a9fe44a;
+}
+.input-div .MuiSvgIcon-root {
+  opacity: 0.7;
+  margin-right: 10px;
+}
+
+.input-div input {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.input-div input::placeholder {
+  opacity: 0.5;
+}
+
+.left-section-form .custom-btn {
+  background: #0a9fe4;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.custom-btn:hover {
+  color: white;
+}

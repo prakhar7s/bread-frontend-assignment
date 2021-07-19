@@ -1,0 +1,16 @@
+.lower-section {
+}
+
+.lower-section .heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1157a0;
+  width: 80%;
+}
+
+.lower-section p {
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 22px;
+  width: 85%;
+}

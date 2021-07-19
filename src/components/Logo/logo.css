@@ -1,0 +1,40 @@
+.logo {
+  width: 400px;
+}
+
+.logo .content {
+  padding: 0;
+  position: relative;
+  padding-top: 10px;
+}
+
+.logo .content::before {
+  position: absolute;
+  content: "";
+  width: 45px;
+  background: #f5c731;
+  bottom: 3px;
+  left: 15px;
+  height: 1.5px;
+}
+
+.logo .content h1 {
+  color: #00c3e6;
+  font-size: 16px;
+  margin: 0;
+}
+.logo .content h2 {
+  margin-top: 2px;
+  line-height: 15px;
+}
+
+.logo .content h2 {
+  font-size: 12px;
+}
+
+.logo .content h2 span {
+  background: -webkit-linear-gradient(left, #efb22b, #efb22b, #ec6353);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
