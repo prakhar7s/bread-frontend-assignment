@@ -73,11 +73,10 @@
   .middle-section .middle-page-heading {
     background: #c8e9fd;
     width: 100%;
-    top: -60px;
+    top: -10px;
     left: 0;
     font-size: 30px;
-    height: 150px;
-    line-height: 180px;
+    height: 100px;
   }
 
   .left-img {

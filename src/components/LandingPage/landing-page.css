@@ -61,7 +61,6 @@
 @media only screen and (max-width: 600px) {
   .landing-page {
     flex-direction: column-reverse;
-    height: 130vh;
     margin-top: 60px;
   }
 
