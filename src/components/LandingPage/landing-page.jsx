@@ -6,7 +6,10 @@ import CustomForm from "../reused-components/form/custom-form";
 const LandingPage = () => {
   return (
     <div className="landing-page d-flex align-items-center">
-      <div className="left-section d-flex flex-column align-items-start justify-content-center">
+      <div
+        data-aos="fade-right"
+        className="left-section d-flex flex-column align-items-start justify-content-center"
+      >
         <p className="heading">
           Become a true <span>SUPERFAN</span>
         </p>
@@ -16,7 +19,7 @@ const LandingPage = () => {
         </p>
         <CustomForm btnLabel="View Tweets From Home" align="flex-start" />
       </div>
-      <div className="skewed-image">
+      <div data-aos="fade-left" className="skewed-image">
         <img src={imageUrl} alt="rightImage" />
       </div>
     </div>

@@ -1,12 +1,14 @@
 .landing-page {
-  min-height: 100vh;
-  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
   background-image: url("../../assets/Rectangle1.jpg");
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 100px;
 }
 
+.skewed-image {
+  padding-right: 40px;
+}
 .skewed-image img {
   height: 100%;
   width: 100%;
@@ -71,4 +73,32 @@
 
 .custom-btn:hover {
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing-page {
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+
+  .left-section {
+    padding: 0;
+    justify-content: center;
+  }
+  .skewed-image {
+    padding: 0px 80px;
+  }
+
+  .left-section .heading {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .left-section .paragraph {
+    padding: 0 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
 }

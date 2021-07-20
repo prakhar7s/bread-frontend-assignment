@@ -1,0 +1,74 @@
+.footer {
+  padding: 10px 40px;
+  display: flex;
+}
+.footer a {
+  text-decoration: none;
+}
+
+.logo-and-links {
+  margin-left: 60px;
+}
+
+/* Overriding Logo styles */
+
+.logo-and-links .logo .content {
+  margin-left: 20px;
+}
+
+.early-access-link {
+  margin-top: 40px;
+  margin-right: 170px;
+}
+
+.logo-and-links .footer-links {
+  width: 100px;
+  margin-left: 40px;
+}
+
+.policy {
+  opacity: 0.8;
+  height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: grid;
+    padding: 0;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "logoAndLinks policy"
+      "logoAndLinks earlyAccess";
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+  }
+
+  .logo-and-links {
+    grid-area: logoAndLinks;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .early-access-link {
+    grid-area: earlyAccess;
+    width: 100%;
+    margin: 0;
+  }
+
+  .early-access-link .MuiSvgIcon-root {
+    display: none;
+  }
+
+  .policy {
+    width: 100%;
+    grid-area: policy;
+    margin: 0;
+  }
+
+  .logo-and-links {
+    margin-left: 0px;
+  }
+}

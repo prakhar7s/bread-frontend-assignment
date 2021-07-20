@@ -33,13 +33,13 @@ const MiddleSection = () => {
 
   return (
     <div className="middle-section  d-flex align-items-start justify-content-between">
-      <p className="middle-page-heading text-center w-92">
+      <p className="middle-page-heading text-center">
         <span>Creators</span> are powerful
       </p>
-      <div className="left-img">
+      <div className="left-img" data-aos="zoom-in">
         <img src={imageUrl} alt="leftImage" />
       </div>
-      <div className="content">
+      <div className="content" data-aos="fade-up-left">
         <div className="heading text-uppercase text-center">
           Creator Shape Culture
         </div>

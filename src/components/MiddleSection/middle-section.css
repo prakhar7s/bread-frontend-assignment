@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   position: relative;
   padding-top: 100px;
-  transform: translateY(-0px);
   padding: 20px 40px;
   padding-top: 100px;
 }
@@ -18,7 +17,7 @@
   font-weight: 500;
   text-align: center;
   color: #1157a0;
-  /* width: 100%; */
+  width: 91%;
 }
 
 .middle-page-heading span {
@@ -65,4 +64,44 @@
   border-radius: 100px;
   margin: 0 10px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-section {
+    flex-direction: column;
+  }
+
+  .middle-section .middle-page-heading {
+    background: #c8e9fd;
+    width: 100%;
+    left: 0;
+    font-size: 30px;
+    height: 90px;
+  }
+
+  .left-img {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  .middle-section .content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .middle-section .content p {
+    text-align: center;
+  }
+
+  .content .hashtags {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .hashtags span {
+    padding: 2px 40px;
+    margin: 4px;
+    font-size: 16px;
+  }
 }

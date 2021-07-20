@@ -1,16 +1,30 @@
-.lower-section {
-}
-
 .lower-section .heading {
   font-size: 40px;
   font-weight: 500;
   color: #1157a0;
   width: 80%;
+  margin-bottom: 80px;
 }
 
 .lower-section p {
-  opacity: 0.8;
+  opacity: 0.7;
   font-weight: 600;
   font-size: 22px;
   width: 85%;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lower-section .heading {
+    font-size: 29px;
+    width: 85%;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+  .lower-section p {
+    font-size: 16px;
+    width: 85%;
+    margin-bottom: 20px;
+  }
 }

@@ -3,7 +3,10 @@ import "./lower-section.css";
 
 const LowerSection = () => {
   return (
-    <div className="lower-section d-flex flex-column align-items-center justify-content">
+    <div
+      data-aos="fade-up"
+      className="lower-section d-flex flex-column align-items-center justify-content"
+    >
       <div className="heading text-center">
         With #TweetsFromHome, express your love for your favourite creator
       </div>
