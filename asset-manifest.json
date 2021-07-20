@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bread-frontend-assignment/static/css/main.9e471d3b.chunk.css",
+    "main.css": "/bread-frontend-assignment/static/css/main.e623a09e.chunk.css",
     "main.js": "/bread-frontend-assignment/static/js/main.b10353f9.chunk.js",
     "main.js.map": "/bread-frontend-assignment/static/js/main.b10353f9.chunk.js.map",
     "runtime-main.js": "/bread-frontend-assignment/static/js/runtime-main.cd7b2511.js",
@@ -10,7 +10,7 @@
     "static/js/2.2ab02a69.chunk.js.map": "/bread-frontend-assignment/static/js/2.2ab02a69.chunk.js.map",
     "index.html": "/bread-frontend-assignment/index.html",
     "static/css/2.bb9c2664.chunk.css.map": "/bread-frontend-assignment/static/css/2.bb9c2664.chunk.css.map",
-    "static/css/main.9e471d3b.chunk.css.map": "/bread-frontend-assignment/static/css/main.9e471d3b.chunk.css.map",
+    "static/css/main.e623a09e.chunk.css.map": "/bread-frontend-assignment/static/css/main.e623a09e.chunk.css.map",
     "static/js/2.2ab02a69.chunk.js.LICENSE.txt": "/bread-frontend-assignment/static/js/2.2ab02a69.chunk.js.LICENSE.txt",
     "static/media/landing-page.css": "/bread-frontend-assignment/static/media/Rectangle1.37c8a7fc.jpg",
     "static/media/middle-section.css": "/bread-frontend-assignment/static/media/Rectangle2.94634dba.svg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.cd7b2511.js",
     "static/css/2.bb9c2664.chunk.css",
     "static/js/2.2ab02a69.chunk.js",
-    "static/css/main.9e471d3b.chunk.css",
+    "static/css/main.e623a09e.chunk.css",
     "static/js/main.b10353f9.chunk.js"
   ]
 }
