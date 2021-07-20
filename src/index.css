@@ -1,16 +1,32 @@
+/* flexible color palette */
+:root {
+  --primary-color: #00c3e6;
+  --secondary-color: #1157a0;
+  --btn-color: #0a9fe4;
+  --border-color: #0a9fe44a;
+  --transition-time: 0.4s;
+  --opacity: 0.7;
+}
+
 * {
   box-sizing: border-box;
 }
 
+html,
 body {
-  margin: 0;
+  width: 100vw;
+  height: 100vh;
   padding: 0;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100vw;
+}
+
+html {
   overflow-x: hidden;
 }
 

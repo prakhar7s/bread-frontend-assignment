@@ -24,11 +24,11 @@
 .left-section .heading {
   font-size: 30px;
   font-weight: 500;
-  color: #1157a0;
+  color: var(--secondary-color);
 }
 
 .heading span {
-  color: #279ceb;
+  color: var(--primary-color);
 }
 
 .left-section-form {
@@ -41,10 +41,10 @@
   padding: 10px;
   width: 370px;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  border-bottom: 2px solid #0a9fe44a;
+  border-bottom: 2px solid var(--border-color);
 }
 .input-div .MuiSvgIcon-root {
-  opacity: 0.7;
+  opacity: var(--opacity);
   margin-right: 10px;
 }
 
@@ -55,29 +55,13 @@
 }
 
 .input-div input::placeholder {
-  opacity: 0.5;
-}
-
-.left-section-form .custom-btn {
-  background: #0a9fe4;
-  color: white;
-  font-size: 17px;
-  text-align: center;
-  padding: 12px 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  cursor: pointer;
-  text-decoration: none;
-  margin-top: 30px;
-}
-
-.custom-btn:hover {
-  color: white;
+  opacity: var(--opacity);
 }
 
 @media only screen and (max-width: 600px) {
   .landing-page {
     flex-direction: column-reverse;
+    height: 130vh;
     margin-top: 60px;
   }
 
@@ -86,7 +70,8 @@
     justify-content: center;
   }
   .skewed-image {
-    padding: 0px 80px;
+    width: 350px;
+    padding: 0;
   }
 
   .left-section .heading {

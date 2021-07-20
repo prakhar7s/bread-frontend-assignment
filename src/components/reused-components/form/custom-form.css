@@ -8,11 +8,11 @@
   padding: 10px;
   min-width: 370px;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  border-bottom: 2px solid #0a9fe44a;
+  border-bottom: 2px solid var(--border-color);
   border-radius: 5px;
 }
 .input-div .MuiSvgIcon-root {
-  opacity: 0.7;
+  opacity: var(--opacity);
   margin-right: 10px;
 }
 
@@ -23,11 +23,11 @@
 }
 
 .input-div input::placeholder {
-  opacity: 0.5;
+  opacity: var(--opacity);
 }
 
 .custom-form .custom-btn {
-  background: #0a9fe4;
+  background: var(--btn-color);
   color: white;
   font-size: 17px;
   text-align: center;
@@ -38,13 +38,13 @@
   text-decoration: none;
   margin-top: 30px;
   border: 2px solid transparent;
-  transition: 0.4s;
+  transition: var(--transition-time);
 }
 
 .custom-form .custom-btn:hover {
-  color: hsl(199, 76%, 50%);
+  color: var(--btn-color);
   background: transparent;
-  border: 2px solid hsl(199, 76%, 50%);
+  border: 2px solid var(--btn-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,7 +55,7 @@
   }
 
   .custom-form .input-div {
-    border: 2px solid #0a9fe44a;
+    border: 2px solid var(--border-color);
   }
 }
 

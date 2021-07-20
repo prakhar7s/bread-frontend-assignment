@@ -19,6 +19,13 @@
 .early-access-link {
   margin-top: 40px;
   margin-right: 170px;
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: var(--transition-time);
+}
+
+.early-access-link:hover {
+  color: black;
 }
 
 .logo-and-links .footer-links {
@@ -27,8 +34,12 @@
 }
 
 .policy {
-  opacity: 0.8;
   height: 60px;
+}
+
+.policy span {
+  opacity: var(--opacity);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {

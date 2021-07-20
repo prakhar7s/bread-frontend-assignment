@@ -1,3 +1,5 @@
 .tweets-from-home {
   position: relative;
+  width: 100vw;
+  overflow: hidden;
 }

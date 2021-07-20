@@ -7,6 +7,7 @@ const CustomForm = ({ btnLabel, align }) => {
     <form
       style={{ alignItems: align }}
       className="custom-form d-flex flex-column"
+      data-aos="zoom-in"
     >
       <div className="input-div">
         <SearchIcon />

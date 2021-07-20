@@ -19,7 +19,7 @@
 }
 
 .logo .content h1 {
-  color: #00c3e6;
+  color: var(--primary-color);
   font-size: 16px;
   margin: 0;
 }

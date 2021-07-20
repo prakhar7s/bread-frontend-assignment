@@ -10,7 +10,7 @@
 }
 
 .hamburger-menu .MuiSvgIcon-root {
-  color: #00a9fa;
+  color: var(--primary-color);
   font-size: 30px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .links a {
-  transition: 0.4s;
+  transition: var(--transition-time);
   font-size: 18px;
   font-weight: 500;
   width: 200px;
@@ -32,7 +32,7 @@
 }
 
 .links .signin-btn {
-  color: #00a9fa;
+  color: var(--btn-color);
   margin-top: 7px;
   text-align: right;
   padding-right: 40px;
@@ -43,7 +43,7 @@
 }
 
 .links .home-btn {
-  background: hsl(199, 76%, 50%);
+  background: var(--btn-color);
   color: white;
   padding: 7px 0px;
   border-radius: 100px;
@@ -52,12 +52,15 @@
 }
 
 .links .home-btn:hover {
-  color: hsl(199, 76%, 50%);
+  color: var(--btn-color);
   background: transparent;
-  border: 2px solid hsl(199, 76%, 50%);
+  border: 2px solid var(--btn-color);
 }
 
 @media only screen and (max-width: 600px) {
+  .header {
+    padding: 10px 20px;
+  }
   .header .links {
     display: none;
   }

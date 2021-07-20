@@ -34,7 +34,7 @@ const MiddleSection = () => {
   return (
     <div className="middle-section  d-flex align-items-start justify-content-between">
       <p className="middle-page-heading text-center">
-        <span>Creators</span> are powerful
+        <span>Creators</span> are powerfuls
       </p>
       <div className="left-img" data-aos="zoom-in">
         <img src={imageUrl} alt="leftImage" />
