@@ -20,6 +20,7 @@
   background: transparent;
   outline: none;
   border: none;
+  width: 90%;
 }
 
 .input-div input::placeholder {

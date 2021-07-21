@@ -44,7 +44,7 @@ const MiddleSection = () => {
           Creator Shape Culture
         </div>
         <p>2 in 3 twitter users agree that creators change and shape culture</p>
-        <div className="hashtags">
+        <div className="hashtags" data-aos="zoom-in-up">
           {hashtags.map((hashtag) => (
             <span style={{ background: hashtag.bg }} key={hashtag.id}>
               {hashtag.name}
